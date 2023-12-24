@@ -4,3 +4,6 @@
 [submodule "disc-elite-beebasm"]
 	path = disc-elite-beebasm
 	url = https://github.com/markmoxon/disc-elite-beebasm.git
+[submodule "6502sp-elite-beebasm"]
+	path = 6502sp-elite-beebasm
+	url = https://github.com/markmoxon/6502sp-elite-beebasm.git
