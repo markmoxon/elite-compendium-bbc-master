@@ -10,3 +10,6 @@
 [submodule "teletext-elite"]
 	path = teletext-elite
 	url = https://github.com/markmoxon/teletext-elite.git
+[submodule "elite-universe-editor"]
+	path = elite-universe-editor
+	url = https://github.com/markmoxon/elite-universe-editor.git
