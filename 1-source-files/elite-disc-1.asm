@@ -53,9 +53,9 @@
  PUTFILE "disc-elite-beebasm/4-reference-binaries/sth/D.MOP.bin", "D.MOP", &005600, &005600
 
 \ Teletext Elite = *RUN TELITE2
- PUTFILE "teletext-elite/3-assembled-output/ELITE2.bin", "TELITE2", &FF2F00, &FF2F23
- PUTFILE "teletext-elite/3-assembled-output/ELITE3.bin", "TELITE3", &FF5700, &FF5700
- PUTFILE "teletext-elite/3-assembled-output/ELITE4.bin", "TELITE4", &FF1900, &FF197B
+ PUTFILE "teletext-elite/3-assembled-output/ELITE2.bin", "TELITE", &FF2F00, &FF2F23
+ PUTFILE "teletext-elite/3-assembled-output/ELITE3.bin", "TELIT3", &FF5700, &FF5700
+ PUTFILE "teletext-elite/3-assembled-output/ELITE4.bin", "TELIT4", &FF1900, &FF197B
 
  PUTFILE "teletext-elite/3-assembled-output/D.CODE.bin", "D.TELE", &0011E3, &0011E3
  PUTFILE "teletext-elite/3-assembled-output/T.CODE.bin", "T.TELE", &0011E3, &0011E3
