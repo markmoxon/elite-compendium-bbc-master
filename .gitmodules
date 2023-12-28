@@ -19,3 +19,6 @@
 [submodule "cassette-elite-beebasm"]
 	path = cassette-elite-beebasm
 	url = https://github.com/markmoxon/cassette-elite-beebasm.git
+[submodule "electron-elite-beebasm"]
+	path = electron-elite-beebasm
+	url = https://github.com/markmoxon/electron-elite-beebasm.git
