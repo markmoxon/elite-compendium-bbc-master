@@ -16,3 +16,6 @@
 [submodule "dfsimage"]
 	path = dfsimage
 	url = https://github.com/monkeyman79/dfsimage.git
+[submodule "cassette-elite-beebasm"]
+	path = cassette-elite-beebasm
+	url = https://github.com/markmoxon/cassette-elite-beebasm.git
