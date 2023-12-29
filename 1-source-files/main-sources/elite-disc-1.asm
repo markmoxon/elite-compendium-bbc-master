@@ -27,9 +27,9 @@
 \
 \ ******************************************************************************
 
-\ Disc Elite (Master, flicker-free) = *RUN ELITE2
+\ Disc Elite (Master, flicker-free) = *RUN ELITED
 
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE2.bin", "ELITE2", &FF2F00, &FF2F23
+ PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE2.bin", "ELITED", &FF2F00, &FF2F23
  PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE3.bin", "ELITE3", &FF5700, &FF5700
  PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE4.bin", "ELITE4", &FF1900, &FF197B
 
@@ -53,14 +53,21 @@
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOO.bin", "D.MOO", &005600, &005600
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOP.bin", "D.MOP", &005600, &005600
 
-\ Teletext Elite = *RUN TELITE
+\ Teletext Elite = *RUN ELITET
 
- PUTFILE "teletext-elite/3-assembled-output/ELITE2.bin", "TELITE", &FF2F00, &FF2F23
+ PUTFILE "teletext-elite/3-assembled-output/ELITE2.bin", "ELITET", &FF2F00, &FF2F23
  PUTFILE "teletext-elite/3-assembled-output/ELITE3.bin", "TELIT3", &FF5700, &FF5700
  PUTFILE "teletext-elite/3-assembled-output/ELITE4.bin", "TELIT4", &FF1900, &FF197B
 
  PUTFILE "teletext-elite/3-assembled-output/D.CODE.bin", "D.TELE", &0011E3, &0011E3
  PUTFILE "teletext-elite/3-assembled-output/T.CODE.bin", "T.TELE", &0011E3, &0011E3
+
+\ BBC Master Compact Elite (Compendium version) = CHAIN "ELITEMC"
+
+ PUTFILE "master-elite-beebasm/4-reference-binaries/compact/M128Elt.bin", "M128Elt", &000E00, &000E43
+ PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BDATA.bin", "BDATA", &001300, &001300
+ PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BCODE.bin", "ELITE", &001300, &002C6C
+ PUTBASIC "master-elite-beebasm/1-source-files/music/load-music-compact.bas", "ELITEMC"
 
 \PUTFILE "3-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
 
