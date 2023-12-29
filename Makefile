@@ -9,3 +9,8 @@ all:
 	dfsimage backup --title="Compendium" --from 2-compiled-game-discs/side2.ssd --to -2 2-compiled-game-discs/elite-compendium.dsd
 	rm 2-compiled-game-discs/side1.ssd
 	rm 2-compiled-game-discs/side2.ssd
+
+.PHONY:b2
+b2:
+	curl -G "http://localhost:48075/reset/b2"
+	curl -H "Content-Type:application/binary" --upload-file "2-compiled-game-discs/elite-compendium.dsd" "http://localhost:48075/run/b2?name=elite-compendium.dsd"
