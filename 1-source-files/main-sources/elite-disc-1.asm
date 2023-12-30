@@ -62,13 +62,11 @@
  PUTFILE "teletext-elite/3-assembled-output/D.CODE.bin", "D.TELE", &0011E3, &0011E3
  PUTFILE "teletext-elite/3-assembled-output/T.CODE.bin", "T.TELE", &0011E3, &0011E3
 
-\ BBC Master Compact Elite (Compendium version) = CHAIN "ELITEMC"
+\ Commander files
 
- PUTFILE "master-elite-beebasm/4-reference-binaries/compact/M128Elt.bin", "M128Elt", &000E00, &000E43
- PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BDATA.bin", "BDATA", &001300, &001300
- PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BCODE.bin", "ELITE", &001300, &002C6C
- PUTBASIC "master-elite-beebasm/1-source-files/music/load-music-compact.bas", "ELITEMC"
+ PUTFILE "teletext-elite/1-source-files/other-files/E.MAX.bin", "E.MAX", &000000, &000000
+ PUTFILE "teletext-elite/1-source-files/other-files/E.MISS1.bin", "E.MISS1", &000000, &000000
+ PUTFILE "teletext-elite/1-source-files/other-files/E.MISS2.bin", "E.MISS2", &000000, &000000
 
-\PUTFILE "3-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
-
+ PUTFILE "2-compiled-game-discs/README.txt", "README", &FFFFFF, &FFFFFF
  PUTFILE "1-source-files/boot-files/$.!BOOT.bin", "!BOOT", &FFFFFF, &FFFFFF

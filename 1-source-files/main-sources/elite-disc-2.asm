@@ -35,6 +35,13 @@
  PUTBASIC "master-elite-beebasm/1-source-files/music/load-music.bas", "ELITEM"
  PUTFILE "master-elite-beebasm/1-source-files/music/elite-music-master.rom", "MUSIC", &008000, &008000
 
+\ BBC Master Compact Elite (Compendium version) = CHAIN "ELITEMC"
+
+ PUTFILE "master-elite-beebasm/4-reference-binaries/compact/M128Elt.bin", "MComElt", &000E00, &000E43
+ PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BDATA.bin", "CDATA", &001300, &001300
+ PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BCODE.bin", "CCODE", &001300, &002C6C
+ PUTBASIC "master-elite-beebasm/1-source-files/music/load-music-compact.bas", "ELITEMC"
+
 \ 6502SP Elite (flicker-free) = *RUN ELITESP
 
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITE.bin", "ELITESP", &FF1FDC, &FF2085
@@ -44,22 +51,18 @@
 
 \ BBC Micro cassette Elite (flicker-free) = CHAIN "ELITEC"
 
- PUTFILE "cassette-elite-beebasm/1-source-files/basic-programs/$.ELITE.bin", "ELITEC", &FF1900, &FF8023
- PUTFILE "cassette-elite-beebasm/3-assembled-output/ELITE.bin", "ELTdata", &FF1100, &FF2000
- PUTFILE "cassette-elite-beebasm/3-assembled-output/ELTcode.bin", "ELTcode", &FF1128, &FF1128
+\PUTFILE "cassette-elite-beebasm/1-source-files/basic-programs/$.ELITE.bin", "ELITEC", &FF1900, &FF8023
+\PUTFILE "cassette-elite-beebasm/3-assembled-output/ELITE.bin", "ELTdata", &FF1100, &FF2000
+\PUTFILE "cassette-elite-beebasm/3-assembled-output/ELTcode.bin", "ELTcode", &FF1128, &FF1128
 
 \ Acorn Electron Elite (flicker-free) = CHAIN "ELITEE"
 
- PUTFILE "electron-elite-beebasm/1-source-files/basic-programs/$.ELITE-disc.bin", "ELITEE", &FF0E00, &FF8023
- PUTFILE "electron-elite-beebasm/3-assembled-output/ELITECO.bin", "ELITECO", &000000, &FFFFFF
- PUTFILE "electron-elite-beebasm/3-assembled-output/ELITEDA.bin", "ELITEDA", &FF4400, &FF5200
+\PUTFILE "electron-elite-beebasm/1-source-files/basic-programs/$.ELITE-disc.bin", "ELITEE", &FF0E00, &FF8023
+\PUTFILE "electron-elite-beebasm/3-assembled-output/ELITECO.bin", "ELITECO", &000000, &FFFFFF
+\PUTFILE "electron-elite-beebasm/3-assembled-output/ELITEDA.bin", "ELITEDA", &FF4400, &FF5200
 
 \ Menu
 
  PUTBASIC "1-source-files/menu-files/$.MENU.bas", "MENU"
  PUTFILE "1-source-files/menu-files/$.SCREEN.bin", "SCREEN", &FF7800, &FF7BE8
-
-\ Commander files
-
- PUTFILE "master-elite-beebasm/1-source-files/other-files/E.MAX.bin", "E.MAX", &000000, &000000
 
