@@ -103,7 +103,7 @@ ENDPROC
 
 DEF PROCsh(Y%,T$)
 LOCAL X%
-X%=20-LEN(T$)/2
+X%=21-LEN(T$)/2
 PRINTTAB(X%,Y%);T$;
 ENDPROC
 
@@ -118,7 +118,7 @@ PRINTTAB(0,0);CHR$(131);"       ] for menu, RETURN to play";
 FOR I%=5TO13:PRINTTAB(0,I%);CHR$(134);:NEXT
 PRINTTAB(0,14);CHR$(130);
 PRINTTAB(0,15);CHR$(130);
-IF O%<2 PROCsh(5,"The best version of Acornsoft Elite"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
+IF O%<2 PROCsh(5,"Elite with all the bells and whistles"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
 IF O%<2 PROCsh(9,"Trumbles mission"):PROCsh(10,"Features from the NES version"):PROCsh(11,"Bug fixes")
 IF O%=2 PROCsh(5,"The fastest and most colourful version"):PROCsh(7,"With flicker-free ships and planets")
 IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Updated to run on the BBC Master"):PROCsh(9,"With flicker-free ships and planets")
@@ -140,13 +140,13 @@ ENDPROC
 
 REM  "----------------------------------"
 DATA "BBC Master 128 Elite"
-DATA "Best version of Acornsoft Elite"
+DATA "The best version of Acornsoft Elite"
 DATA "BBC Master Compact Elite"
-DATA "Best way to play on a Compact"
+DATA "The best way to play on a Compact"
 DATA "6502 Second Processor Elite"
-DATA "Fastest version of co-pro Elite"
+DATA "The fastest version of co-pro Elite"
 DATA "BBC Micro disc Elite"
-DATA "Best version of original Elite"
+DATA "The best version of original Elite"
 DATA "Teletext Elite"
 DATA "Classic Elite with added Ceefax"
 DATA "",""
