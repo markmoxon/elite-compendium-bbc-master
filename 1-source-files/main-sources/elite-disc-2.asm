@@ -27,13 +27,16 @@
 \
 \ ******************************************************************************
 
+\ Elite music ROM
+
+ PUTFILE "elite-music/elite-music.rom", "MUSIC", &008000, &008000
+
 \ BBC Master Elite (Compendium version) = CHAIN "ELITEM"
 
  PUTFILE "master-elite-beebasm/3-assembled-output/M128Elt.bin", "M128Elt", &FF0E00, &FF0E43
  PUTFILE "master-elite-beebasm/3-assembled-output/BDATA.bin", "BDATA", &000000, &000000
  PUTFILE "master-elite-beebasm/3-assembled-output/BCODE.bin", "BCODE", &000000, &000000
  PUTBASIC "master-elite-beebasm/1-source-files/music/load-music.bas", "ELITEM"
- PUTFILE "master-elite-beebasm/1-source-files/music/elite-music-master.rom", "MUSIC", &008000, &008000
 
 \ BBC Master Compact Elite (Compendium version) = CHAIN "ELITEMC"
 
