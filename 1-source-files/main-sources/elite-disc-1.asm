@@ -68,5 +68,5 @@
  PUTFILE "teletext-elite/1-source-files/other-files/E.MISS1.bin", "E.MISS1", &000000, &000000
  PUTFILE "teletext-elite/1-source-files/other-files/E.MISS2.bin", "E.MISS2", &000000, &000000
 
- PUTFILE "2-compiled-game-discs/README.txt", "README", &FFFFFF, &FFFFFF
+ PUTFILE "2-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
  PUTFILE "1-source-files/boot-files/$.!BOOT.bin", "!BOOT", &FFFFFF, &FFFFFF

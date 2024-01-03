@@ -64,5 +64,5 @@
  EQUS "---------------------------------------"
  EQUB 10, 13
 
- SAVE "2-compiled-game-discs/README.txt", readme, P%
+ SAVE "2-assembled-output/README.txt", readme, P%
 
