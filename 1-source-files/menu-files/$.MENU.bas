@@ -2,6 +2,12 @@ MODE 7
 *FX 4,1
 *FX 200,1
 VDU 23;8202;0;0;0;
+secpro%=FALSE
+A%=&00:X%=&01
+master%=(USR(&FFF4) AND &FF00)=&300
+IF NOT master% THEN PROCnotmaster
+A%=&EA:X%=&00:Y%=&FF
+IF (USR(&FFF4) AND &FF00) THEN secpro%=TRUE
 *RUN SCREEN
 U%=INKEY(200)
 UH$="  "+CHR$(130)
@@ -87,6 +93,7 @@ CHAIN "ELITEMC"
 ENDPROC
 
 DEF PROCsecpro
+IF NOT secpro% THEN PROCnotsecpro
 *DRIVE 2
 *RUN ELITESP
 ENDPROC
@@ -136,6 +143,27 @@ PROCtitle
 PROCoptions
 PROChl(START%+O%*ROWS%,HH$,HL$)
 L%=O%
+ENDPROC
+
+DEF PROCnotmaster
+PRINT"Sorry, the Elite Compendium only works"
+PRINT"on a BBC Master."
+END
+ENDPROC
+
+DEF PROCnotsecpro
+VDU26
+CLS
+PRINT"Sorry, this version of Elite needs a"
+PRINT"6502 Second Processor."
+PRINT
+PRINT"Please enable the Tube with this"
+PRINT"command:"
+PRINT
+PRINT"  *CONFIGURE TUBE"
+PRINT
+PRINT"and try booting the disc again."
+END
 ENDPROC
 
 REM  "----------------------------------"
