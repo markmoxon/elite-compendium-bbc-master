@@ -14,6 +14,8 @@ UH$="  "+CHR$(130)
 UL$="  "+CHR$(134)
 HH$=CHR$(132)+CHR$(157)+CHR$(135)
 HL$=CHR$(132)+CHR$(157)+CHR$(135)
+TH$=CHR$(131)+CHR$(157)+CHR$(132)
+TL$=CHR$(131)+CHR$(157)+CHR$(132)
 START%=2
 ROWS%=3
 PROCtitle
@@ -32,14 +34,14 @@ IF O%=4 PROCteletext
 ENDPROC
 
 DEF PROCtitle
-PRINTTAB(13,3);CHR$(151);CHR$(153);"<$h h l$h,";CHR$(145);CHR$(154)
-PRINTTAB(13,4);CHR$(151);CHR$(153);"w0j0j j jq";CHR$(145);CHR$(154)
+PRINTTAB(13,2);CHR$(151);CHR$(153);"<$h h l$h,";CHR$(145);CHR$(154)
+PRINTTAB(13,3);CHR$(151);CHR$(153);"w0j0j j jq";CHR$(145);CHR$(154)
+PRINTTAB(13,4);CHR$(135);" COMPENDIUM";CHR$(145);CHR$(154)
 VDU28,0,24,39,5
 CLS
-PRINTCHR$(135);"              COMPENDIUM"
 PRINT'CHR$(130);"   Elite by Ian Bell and David Braben"
 PRINTCHR$(130);"       Enhancements by Mark Moxon"
-PRINTCHR$(131);"^ to select, ] for info, RETURN to play";
+PRINT'CHR$(131);"^ to select, ] for info, RETURN to play";
 VDU28,0,24,39,9
 ENDPROC
 
@@ -66,7 +68,7 @@ NEXT
 CLS
 PROCsh(2,T$)
 PROCsh(3,V$)
-PROChl(2,HH$,HL$)
+PROChl(2,TH$,TL$)
 PRINT'
 ENDPROC
 
@@ -126,7 +128,7 @@ FOR I%=5TO13:PRINTTAB(0,I%);CHR$(134);:NEXT
 PRINTTAB(0,14);CHR$(130);
 PRINTTAB(0,15);CHR$(130);
 IF O%<2 PROCsh(5,"Elite with all the bells and whistles"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
-IF O%<2 PROCsh(9,"Trumbles mission"):PROCsh(10,"Features from the NES version"):PROCsh(11,"Bug fixes")
+IF O%<2 PROCsh(9,"Docking computer improvements"):PROCsh(10,"The epic Trumbles mission"):PROCsh(11,"Bug fixes and more")
 IF O%=2 PROCsh(5,"The fastest and most colourful version"):PROCsh(7,"With flicker-free ships and planets")
 IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Updated to run on the BBC Master"):PROCsh(9,"With flicker-free ships and planets")
 IF O%=4 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Converted to run entirely in teletext")
