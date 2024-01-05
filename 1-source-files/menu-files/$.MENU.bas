@@ -27,10 +27,10 @@ END
 
 DEF PROCrun
 IF O%=0 PROCmaster
-IF O%=1 PROCcompact
-IF O%=2 PROCsecpro
-IF O%=3 PROCbbcdisc
-IF O%=4 PROCteletext
+IF O%=1 PROCsecpro
+IF O%=2 PROCbbcdisc
+IF O%=3 PROCteletext
+IF O%=4 PROCeditor
 ENDPROC
 
 DEF PROCtitle
@@ -89,11 +89,6 @@ DEF PROCmaster
 CHAIN "ELITEM"
 ENDPROC
 
-DEF PROCcompact
-*DRIVE 2
-CHAIN "ELITEMC"
-ENDPROC
-
 DEF PROCsecpro
 IF NOT secpro% THEN PROCnotsecpro
 *DRIVE 2
@@ -108,6 +103,12 @@ ENDPROC
 DEF PROCteletext
 *DRIVE 0
 *RUN ELITET
+ENDPROC
+
+DEF PROCeditor
+*DRIVE 2
+*DIR V
+*RUN ELITEUE
 ENDPROC
 
 DEF PROCsh(Y%,T$)
@@ -127,14 +128,15 @@ PRINTTAB(0,0);CHR$(131);"       ] for menu, RETURN to play";
 FOR I%=5TO13:PRINTTAB(0,I%);CHR$(134);:NEXT
 PRINTTAB(0,14);CHR$(130);
 PRINTTAB(0,15);CHR$(130);
-IF O%<2 PROCsh(5,"Elite with all the bells and whistles"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
-IF O%<2 PROCsh(9,"Docking computer improvements"):PROCsh(10,"The epic Trumbles mission"):PROCsh(11,"Bug fixes and more")
-IF O%=2 PROCsh(5,"The fastest and most colourful version"):PROCsh(7,"With flicker-free ships and planets")
-IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Updated to run on the BBC Master"):PROCsh(9,"With flicker-free ships and planets")
-IF O%=4 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Converted to run entirely in teletext")
-IF O%=0 PROCsh(14,"For the BBC Master 128")
-IF O%<>0 AND O%<>2 PROCsh(14,"For the BBC Master 128 or Compact")
-IF O%=2 PROCsh(14,"For the BBC Master with Second Proc")
+IF O%=0 PROCsh(5,"Elite with all the bells and whistles"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
+IF O%=0 PROCsh(9,"Docking computer improvements"):PROCsh(10,"The epic Trumbles mission"):PROCsh(11,"Bug fixes and more")
+IF O%=1 PROCsh(5,"The fastest and most colourful version"):PROCsh(7,"With flicker-free ships and planets"):PROCsh(9,"Requires a 65C102 co-processor")
+IF O%=2 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Updated to run on the BBC Master"):PROCsh(9,"With flicker-free ships and planets")
+IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Converted to run entirely in teletext")
+IF O%=4 PROCsh(5,"Create your own 3D scenarios in Elite"):PROCsh(7,"Press play to bring them to life"):PROCsh(9,"Comes with lots of example universes")
+IF O%=4 PROCsh(11,"See bbcelite.com/hacks for instructions")
+IF O%<>1 PROCsh(14,"For the BBC Master 128")
+IF O%=1 PROCsh(14,"For the BBC Master Turbo")
 PROCsh(15,"See www.bbcelite.com for more details")
 REPEAT
 K%=GET
@@ -171,12 +173,12 @@ ENDPROC
 REM  "----------------------------------"
 DATA "BBC Master 128 Elite"
 DATA "The best version of Acornsoft Elite"
-DATA "BBC Master Compact Elite"
-DATA "The best way to play on a Compact"
 DATA "6502 Second Processor Elite"
-DATA "The fastest version of co-pro Elite"
+DATA "The best version of co-pro Elite"
 DATA "BBC Micro disc Elite"
 DATA "The best version of original Elite"
 DATA "Teletext Elite"
 DATA "Classic Elite with added Ceefax"
+DATA "Elite Universe Editor"
+DATA "Create fully playable 3D scenarios"
 DATA "",""

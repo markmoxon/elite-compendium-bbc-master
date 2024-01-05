@@ -27,14 +27,7 @@
 \
 \ ******************************************************************************
 
-\ Disc Elite (Master, flicker-free) = *RUN ELITED
-
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE2.bin", "ELITED", &FF2F00, &FF2F23
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE3.bin", "ELITE3", &FF5700, &FF5700
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE4.bin", "ELITE4", &FF1900, &FF197B
-
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.CODE.bin", "D.CODE", &0011E3, &0011E3
- PUTFILE "disc-elite-beebasm/3-assembled-output/T.CODE.bin", "T.CODE", &0011E3, &0011E3
+\ Shared disc files
 
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOA.bin", "D.MOA", &005600, &005600
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOB.bin", "D.MOB", &005600, &005600
@@ -53,6 +46,15 @@
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOO.bin", "D.MOO", &005600, &005600
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOP.bin", "D.MOP", &005600, &005600
 
+\ Disc Elite (Master, flicker-free) = *RUN ELITED
+
+ PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE2.bin", "ELITED", &FF2F00, &FF2F23
+ PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE3.bin", "ELITE3", &FF5700, &FF5700
+ PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE4.bin", "ELITE4", &FF1900, &FF197B
+
+ PUTFILE "disc-elite-beebasm/3-assembled-output/D.CODE.bin", "D.CODE", &0011E3, &0011E3
+ PUTFILE "disc-elite-beebasm/3-assembled-output/T.CODE.bin", "T.CODE", &0011E3, &0011E3
+
 \ Teletext Elite = *RUN ELITET
 
  PUTFILE "teletext-elite/3-assembled-output/ELITE2.bin", "ELITET", &FF2F00, &FF2F23
@@ -67,6 +69,8 @@
  PUTFILE "teletext-elite/1-source-files/other-files/E.MAX.bin", "E.MAX", &000000, &000000
  PUTFILE "teletext-elite/1-source-files/other-files/E.MISS1.bin", "E.MISS1", &000000, &000000
  PUTFILE "teletext-elite/1-source-files/other-files/E.MISS2.bin", "E.MISS2", &000000, &000000
+
+\ Boot files
 
  PUTFILE "2-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
  PUTFILE "1-source-files/boot-files/$.!BOOT.bin", "!BOOT", &FFFFFF, &FFFFFF

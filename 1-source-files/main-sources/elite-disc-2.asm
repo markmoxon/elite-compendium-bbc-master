@@ -38,12 +38,18 @@
  PUTFILE "master-elite-beebasm/3-assembled-output/BCODE.bin", "BCODE", &000000, &000000
  PUTBASIC "master-elite-beebasm/1-source-files/music/load-music.bas", "ELITEM"
 
-\ BBC Master Compact Elite (Compendium version) = CHAIN "ELITEMC"
+\ Elite Universe Editor (BBC Master version) = *DIR V : *RUN ELITEUE
 
- PUTFILE "master-elite-beebasm/4-reference-binaries/compact/M128Elt.bin", "MComElt", &000E00, &000E43
- PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BDATA.bin", "CDATA", &001300, &001300
- PUTFILE "master-elite-beebasm/4-reference-binaries/compact/BCODE.bin", "CCODE", &001300, &002C6C
- PUTBASIC "master-elite-beebasm/1-source-files/music/load-music-compact.bas", "ELITEMC"
+ PUTFILE "elite-universe-editor/master-elite/3-assembled-output/M128Elt.bin", "V.ELITEUE", &FF0E00, &FF0E43
+ PUTFILE "elite-universe-editor/master-elite/3-assembled-output/BDATA.bin", "V.BDATA", &000000, &000000
+ PUTFILE "elite-universe-editor/master-elite/3-assembled-output/BCODE.bin", "V.BCODE", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.BOXART1.bin", "U.BOXART1", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.BOXART2.bin", "U.BOXART2", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.BOXARTC.bin", "U.BOXARTC", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.MANUAL.bin", "U.MANUAL", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.SHIPID.bin", "U.SHIPID", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.SHIPID6.bin", "U.SHIPID6", &000000, &000000
+ PUTFILE "elite-universe-editor/universe-editor/universe-files/U.SHIPIDC.bin", "U.SHIPIDC", &000000, &000000
 
 \ 6502SP Elite (flicker-free) = *RUN ELITESP
 
@@ -51,18 +57,6 @@
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITEa.bin", "I.ELITEa", &FF2000, &FF2000
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/I.CODE.bin", "I.CODE", &FF2400, &FF2C89
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/P.CODE.bin", "P.CODE", &001000, &00106A
-
-\ BBC Micro cassette Elite (flicker-free) = CHAIN "ELITEC"
-
-\PUTFILE "cassette-elite-beebasm/1-source-files/basic-programs/$.ELITE.bin", "ELITEC", &FF1900, &FF8023
-\PUTFILE "cassette-elite-beebasm/3-assembled-output/ELITE.bin", "ELTdata", &FF1100, &FF2000
-\PUTFILE "cassette-elite-beebasm/3-assembled-output/ELTcode.bin", "ELTcode", &FF1128, &FF1128
-
-\ Acorn Electron Elite (flicker-free) = CHAIN "ELITEE"
-
-\PUTFILE "electron-elite-beebasm/1-source-files/basic-programs/$.ELITE-disc.bin", "ELITEE", &FF0E00, &FF8023
-\PUTFILE "electron-elite-beebasm/3-assembled-output/ELITECO.bin", "ELITECO", &000000, &FFFFFF
-\PUTFILE "electron-elite-beebasm/3-assembled-output/ELITEDA.bin", "ELITEDA", &FF4400, &FF5200
 
 \ Menu
 
