@@ -129,7 +129,7 @@ FOR I%=5TO13:PRINTTAB(0,I%);CHR$(134);:NEXT
 PRINTTAB(0,14);CHR$(130);
 PRINTTAB(0,15);CHR$(130);
 IF O%=0 PROCsh(5,"Elite with all the bells and whistles"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
-IF O%=0 PROCsh(9,"Docking computer improvements"):PROCsh(10,"The epic Trumbles mission"):PROCsh(11,"Bug fixes and more")
+IF O%=0 PROCsh(9,"Docking computer improvements"):PROCsh(10,"The epic Trumbles mission"):PROCsh(11,"Red lasers for enemy fire"):PROCsh(12,"Bug fixes and more")
 IF O%=1 PROCsh(5,"The fastest and most colourful version"):PROCsh(7,"With flicker-free ships and planets"):PROCsh(9,"Requires a 65C102 co-processor")
 IF O%=2 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Updated to run on the BBC Master"):PROCsh(9,"With flicker-free ships and planets")
 IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Converted to run entirely in teletext")
