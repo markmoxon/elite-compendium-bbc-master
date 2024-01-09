@@ -59,6 +59,10 @@
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/P.CODE.bin", "P.CODE", &001000, &00106A
  PUTBASIC "6502sp-elite-beebasm/1-source-files/music/load-music.bas", "ELITE65"
 
+\ Disc Elite (Master, Compendium version) = CHAIN "ELITED", which does *DRIVE 0 : *RUN ELITED
+
+ PUTBASIC "disc-elite-beebasm/1-source-files/music/load-music-drive-2.bas", "ELITED"
+
 \ Menu
 
  PUTBASIC "1-source-files/menu-files/$.MENU.bas", "MENU"

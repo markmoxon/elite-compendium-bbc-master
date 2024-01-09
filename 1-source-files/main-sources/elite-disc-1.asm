@@ -46,7 +46,7 @@
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOO.bin", "D.MOO", &005600, &005600
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOP.bin", "D.MOP", &005600, &005600
 
-\ Disc Elite (Master, flicker-free) = *RUN ELITED
+\ Disc Elite (Master, Compendium version) = *RUN ELITED, called from loader on disc 2
 
  PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE2.bin", "ELITED", &FF2F00, &FF2F23
  PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE3.bin", "ELITE3", &FF5700, &FF5700
