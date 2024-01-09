@@ -85,27 +85,31 @@ UNTIL K%=13
 ENDPROC
 
 DEF PROCmaster
+IF secpro% THEN PROCdisablesecpro
 *DRIVE 2
 CHAIN "ELITEM"
 ENDPROC
 
 DEF PROCsecpro
-IF NOT secpro% THEN PROCnotsecpro
+IF NOT secpro% THEN PROCenablesecpro
 *DRIVE 2
 CHAIN "ELITE65"
 ENDPROC
 
 DEF PROCbbcdisc
+IF secpro% THEN PROCdisablesecpro
 *DRIVE 0
 *RUN ELITED
 ENDPROC
 
 DEF PROCteletext
+IF secpro% THEN PROCdisablesecpro
 *DRIVE 0
 *RUN ELITET
 ENDPROC
 
 DEF PROCeditor
+IF secpro% THEN PROCdisablesecpro
 *DRIVE 2
 *DIR V
 *RUN ELITEUE
@@ -155,7 +159,22 @@ PRINT"on a BBC Master."
 END
 ENDPROC
 
-DEF PROCnotsecpro
+DEF PROCdisablesecpro
+VDU26
+CLS
+PRINT"Sorry, this version of Elite will not"
+PRINT"run on a 6502 Second Processor."
+PRINT
+PRINT"Please disable the Tube with this"
+PRINT"command:"
+PRINT
+PRINT"  *CONFIGURE NOTUBE"
+PRINT
+PRINT"and try booting the disc again."
+END
+ENDPROC
+
+DEF PROCenablesecpro
 VDU26
 CLS
 PRINT"Sorry, this version of Elite needs a"
