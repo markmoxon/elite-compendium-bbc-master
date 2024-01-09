@@ -51,12 +51,13 @@
  PUTFILE "elite-universe-editor/universe-editor/universe-files/U.SHIPID6.bin", "U.SHIPID6", &000000, &000000
  PUTFILE "elite-universe-editor/universe-editor/universe-files/U.SHIPIDC.bin", "U.SHIPIDC", &000000, &000000
 
-\ 6502SP Elite (flicker-free) = *RUN ELITESP
+\ 6502SP Elite (Compendium version) = CHAIN "ELITE65"
 
- PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITE.bin", "ELITESP", &FF1FDC, &FF2085
+ PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITE.bin", "ELITE", &FF1FDC, &FF2085
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITEa.bin", "I.ELITEa", &FF2000, &FF2000
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/I.CODE.bin", "I.CODE", &FF2400, &FF2C89
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/P.CODE.bin", "P.CODE", &001000, &00106A
+ PUTBASIC "6502sp-elite-beebasm/1-source-files/music/load-music.bas", "ELITE65"
 
 \ Menu
 
