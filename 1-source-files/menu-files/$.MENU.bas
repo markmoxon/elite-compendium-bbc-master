@@ -104,8 +104,8 @@ ENDPROC
 
 DEF PROCteletext
 IF secpro% THEN PROCdisablesecpro
-*DRIVE 0
-*RUN ELITET
+*DRIVE 2
+CHAIN "ELITETT"
 ENDPROC
 
 DEF PROCeditor
@@ -138,7 +138,8 @@ IF O%=1 PROCsh(5,"The smoothest and most difficult version"):PROCsh(6,"with the 
 IF O%=1 PROCsh(9,"Music with volume control"):PROCsh(10,"Volume control for sound effects"):PROCsh(11,"Speed adjusted to be playable"):PROCsh(13,"Requires a 65C102 co-processor")
 IF O%=2 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(6,"with the following enhancements"):PROCsh(8,"Flicker-free ships and planets")
 IF O%=2 PROCsh(9,"Music with volume control"):PROCsh(10,"Volume control for sound effects"):PROCsh(11,"Updated to run on the BBC Master")
-IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(7,"Converted to run entirely in teletext")
+IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(6,"with the following enhancements"):PROCsh(8,"Converted to run entirely in teletext")
+IF O%=3 PROCsh(9,"Flicker-free ships and planets"):PROCsh(10,"Music with volume control"):PROCsh(11,"Volume control for sound effects"):PROCsh(12,"Ceefax option for the market page")
 IF O%=4 PROCsh(5,"Create your own 3D scenarios in Elite"):PROCsh(7,CHR$(34)+"Press play"+CHR$(34)+" to bring them to life"):PROCsh(9,"Comes with lots of example universes")
 IF O%=4 PROCsh(11,"See bbcelite.com/hacks for instructions")
 IF O%<>1 PROCsh(14,"For the BBC Master 128")
