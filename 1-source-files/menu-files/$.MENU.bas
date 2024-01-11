@@ -134,8 +134,8 @@ PRINTTAB(0,14);CHR$(130);
 PRINTTAB(0,15);CHR$(130);
 IF O%=0 PROCsh(5,"Elite with all the bells and whistles"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
 IF O%=0 PROCsh(9,"Docking computer improvements"):PROCsh(10,"The epic Trumbles mission"):PROCsh(11,"Red lasers for enemy fire"):PROCsh(12,"Bug fixes and more")
-IF O%=1 PROCsh(5,"The smoothest and most difficult version"):PROCsh(6,"with the following enhancements"):PROCsh(8,"Flicker-free ships and planets")
-IF O%=1 PROCsh(9,"Music with volume control"):PROCsh(10,"Volume control for sound effects"):PROCsh(11,"Speed adjusted to be playable"):PROCsh(13,"Requires a 65C102 co-processor")
+IF O%=1 PROCsh(5,"Fast Elite with the following extras"):PROCsh(7,"Flicker-free ships and planets"):PROCsh(8,"Music with volume control")
+IF O%=1 PROCsh(9,"Volume control for sound effects"):PROCsh(10,"Speed adjusted to be playable"):PROCsh(12,"Requires a 6502/65C102 co-processor")
 IF O%=2 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(6,"with the following enhancements"):PROCsh(8,"Flicker-free ships and planets")
 IF O%=2 PROCsh(9,"Music with volume control"):PROCsh(10,"Volume control for sound effects"):PROCsh(11,"Updated to run on the BBC Master")
 IF O%=3 PROCsh(5,"The classic 1984 BBC Micro release"):PROCsh(6,"with the following enhancements"):PROCsh(8,"Converted to run entirely in teletext")
