@@ -157,8 +157,12 @@ L%=O%
 ENDPROC
 
 DEF PROCnotmaster
-PRINT"Sorry, the Elite Compendium only works"
-PRINT"on a BBC Master."
+PRINT"Sorry, this version of the Elite"
+PRINT"Compendium only works on a BBC"
+PRINT"Master."
+PRINT'"There is a separate version for the"
+PRINT"BBC Micro. See bbcelite.com/hacks for"
+PRINT"more details."
 END
 ENDPROC
 
