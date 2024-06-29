@@ -5,9 +5,9 @@ all:
 	$(BEEBASM) -i 1-source-files/main-sources/elite-readme.asm
 	$(BEEBASM) -i 1-source-files/main-sources/elite-disc-1.asm -do 2-assembled-output/side1.ssd
 	$(BEEBASM) -i 1-source-files/main-sources/elite-disc-2.asm -do 2-assembled-output/side2.ssd
-	dfsimage create 3-compiled-game-discs/elite-compendium.dsd
-	dfsimage backup --title="Compendium" --bootopt=EXEC --from 2-assembled-output/side1.ssd --to -1 3-compiled-game-discs/elite-compendium.dsd
-	dfsimage backup --title="Compendium" --from 2-assembled-output/side2.ssd --to -2 3-compiled-game-discs/elite-compendium.dsd
+	dfsimage create 3-compiled-game-discs/elite-compendium-bbc-master.dsd
+	dfsimage backup --title="Compendium" --bootopt=EXEC --from 2-assembled-output/side1.ssd --to -1 3-compiled-game-discs/elite-compendium-bbc-master.dsd
+	dfsimage backup --title="Compendium" --from 2-assembled-output/side2.ssd --to -2 3-compiled-game-discs/elite-compendium-bbc-master.dsd
 
 .PHONY:b2
 b2:
