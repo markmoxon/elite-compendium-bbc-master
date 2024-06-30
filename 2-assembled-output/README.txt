@@ -1,6 +1,8 @@
 
 ---------------------------------------
-Acornsoft Elite (compendium version)
+Acornsoft Elite (Compendium version)
+
+For the BBC Master
 
 Contains flicker-free routines, music
 and lots of other hacks by Mark Moxon
@@ -17,6 +19,6 @@
 
 See www.bbcelite.com for details
 
-Build: 2024-06-30 14:40:33
+Build: 2024-06-30 16:48:47
 ---------------------------------------
 
