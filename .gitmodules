@@ -10,12 +10,12 @@
 [submodule "teletext-elite"]
 	path = teletext-elite
 	url = https://github.com/markmoxon/teletext-elite.git
-[submodule "elite-universe-editor"]
-	path = elite-universe-editor
-	url = https://github.com/markmoxon/elite-universe-editor.git
 [submodule "elite-music"]
 	path = elite-music
 	url = https://github.com/markmoxon/elite-music.git
 [submodule "dfsimage"]
 	path = dfsimage
 	url = https://github.com/markmoxon/dfsimage.git
+[submodule "master-elite-universe-editor"]
+	path = master-elite-universe-editor
+	url = https://github.com/markmoxon/master-elite-universe-editor.git
