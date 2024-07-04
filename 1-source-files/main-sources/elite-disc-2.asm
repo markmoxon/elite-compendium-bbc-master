@@ -29,7 +29,7 @@
 
 \ Elite music ROM
 
- PUTFILE "elite-music/elite-music.rom", "MUSIC", &008000, &008000
+ PUTFILE "disc-elite-beebasm/3-assembled-output/elite-music.rom", "MUSIC", &008000, &008000
 
 \ BBC Master Elite (Compendium version) = CHAIN "ELITEM"
 
