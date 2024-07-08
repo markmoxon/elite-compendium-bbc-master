@@ -56,7 +56,7 @@
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITE.bin", "ELITE", &FF1FDC, &FF2085
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/ELITEa.bin", "I.ELITEa", &FF2000, &FF2000
  PUTFILE "6502sp-elite-beebasm/3-assembled-output/I.CODE.bin", "I.CODE", &FF2400, &FF2C89
- PUTFILE "6502sp-elite-beebasm/3-assembled-output/P.CODE.bin", "P.CODE", &001000, &00106A
+ PUTFILE "6502sp-elite-beebasm/3-assembled-output/P.CODE.bin", "P.CODE", &000E3C, &00106A
  PUTBASIC "6502sp-elite-beebasm/1-source-files/music/load-music.bas", "ELITE65"
 
 \ Disc Elite (Compendium version) = CHAIN "ELITED", which does *DRIVE 0 : *RUN ELITED
