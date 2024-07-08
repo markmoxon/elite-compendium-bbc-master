@@ -27,6 +27,11 @@
 \
 \ ******************************************************************************
 
+\ Menu
+
+ PUTBASIC "1-source-files/menu-files/$.MENU.bas", "MENU"
+ PUTFILE "1-source-files/menu-files/$.SCREEN.bin", "SCREEN", &FF7800, &FF7BE8
+
 \ Elite music ROM
 
  PUTFILE "disc-elite-beebasm/3-assembled-output/elite-music.rom", "MUSIC", &008000, &008000
@@ -66,9 +71,4 @@
 \ Teletext Elite (Compendium version) = CHAIN "ELITETT", which does *DRIVE 0 : *RUN ELITET
 
  PUTBASIC "teletext-elite/1-source-files/music/load-music-drive-2.bas", "ELITETT"
-
-\ Menu
-
- PUTBASIC "1-source-files/menu-files/$.MENU.bas", "MENU"
- PUTFILE "1-source-files/menu-files/$.SCREEN.bin", "SCREEN", &FF7800, &FF7BE8
 

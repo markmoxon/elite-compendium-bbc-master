@@ -27,6 +27,11 @@
 \
 \ ******************************************************************************
 
+\ Boot files
+
+ PUTFILE "2-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
+ PUTFILE "1-source-files/boot-files/$.!BOOT.bin", "!BOOT", &FFFFFF, &FFFFFF
+
 \ Shared disc files
 
  PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOA.bin", "D.MOA", &005600, &005600
@@ -69,8 +74,3 @@
  PUTFILE "teletext-elite/1-source-files/other-files/E.MAX.bin", "E.MAX", &000000, &000000
  PUTFILE "teletext-elite/1-source-files/other-files/E.MISS1.bin", "E.MISS1", &000000, &000000
  PUTFILE "teletext-elite/1-source-files/other-files/E.MISS2.bin", "E.MISS2", &000000, &000000
-
-\ Boot files
-
- PUTFILE "2-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
- PUTFILE "1-source-files/boot-files/$.!BOOT.bin", "!BOOT", &FFFFFF, &FFFFFF
