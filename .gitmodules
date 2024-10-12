@@ -4,12 +4,6 @@
 [submodule "dfsimage"]
 	path = dfsimage
 	url = https://github.com/markmoxon/dfsimage.git
-[submodule "master-elite-universe-editor"]
-	path = master-elite-universe-editor
-	url = https://github.com/markmoxon/master-elite-universe-editor.git
-[submodule "library-elite-universe-editor"]
-	path = library-elite-universe-editor
-	url = https://github.com/markmoxon/library-elite-universe-editor.git
 [submodule "elite-source-code-bbc-micro-disc"]
 	path = elite-source-code-bbc-micro-disc
 	url = https://github.com/markmoxon/elite-source-code-bbc-micro-disc.git
@@ -19,3 +13,9 @@
 [submodule "elite-source-code-bbc-master"]
 	path = elite-source-code-bbc-master
 	url = https://github.com/markmoxon/elite-source-code-bbc-master.git
+[submodule "elite-universe-editor-library"]
+	path = elite-universe-editor-library
+	url = https://github.com/markmoxon/elite-universe-editor-library.git
+[submodule "elite-universe-editor-bbc-master"]
+	path = elite-universe-editor-bbc-master
+	url = https://github.com/markmoxon/elite-universe-editor-bbc-master.git

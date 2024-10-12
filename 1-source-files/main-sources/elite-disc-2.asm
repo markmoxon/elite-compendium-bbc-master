@@ -45,16 +45,16 @@
 
 \ Elite Universe Editor (BBC Master version) = *DIR V : *RUN ELITEUE
 
- PUTFILE "master-elite-universe-editor/3-assembled-output/M128Elt.bin", "V.ELITEUE", &FF0E00, &FF0E43
- PUTFILE "master-elite-universe-editor/3-assembled-output/BDATA.bin", "V.BDATA", &000000, &000000
- PUTFILE "master-elite-universe-editor/3-assembled-output/BCODE.bin", "V.BCODE", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.BOXART1.bin", "U.BOXART1", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.BOXART2.bin", "U.BOXART2", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.BOXARTC.bin", "U.BOXARTC", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.MANUAL.bin", "U.MANUAL", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.SHIPID.bin", "U.SHIPID", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.SHIPID6.bin", "U.SHIPID6", &000000, &000000
- PUTFILE "library-elite-universe-editor/universe-files/U.SHIPIDC.bin", "U.SHIPIDC", &000000, &000000
+ PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/M128Elt.bin", "V.ELITEUE", &FF0E00, &FF0E43
+ PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/BDATA.bin", "V.BDATA", &000000, &000000
+ PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/BCODE.bin", "V.BCODE", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.BOXART1.bin", "U.BOXART1", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.BOXART2.bin", "U.BOXART2", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.BOXARTC.bin", "U.BOXARTC", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.MANUAL.bin", "U.MANUAL", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.SHIPID.bin", "U.SHIPID", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.SHIPID6.bin", "U.SHIPID6", &000000, &000000
+ PUTFILE "elite-universe-editor-library/universe-files/U.SHIPIDC.bin", "U.SHIPIDC", &000000, &000000
 
 \ 6502SP Elite (Compendium version) = CHAIN "ELITE65"
 
