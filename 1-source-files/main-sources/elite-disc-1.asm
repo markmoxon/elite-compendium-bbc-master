@@ -34,31 +34,31 @@
 
 \ Shared disc files
 
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOA.bin", "D.MOA", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOB.bin", "D.MOB", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOC.bin", "D.MOC", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOD.bin", "D.MOD", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOE.bin", "D.MOE", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOF.bin", "D.MOF", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOG.bin", "D.MOG", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOH.bin", "D.MOH", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOI.bin", "D.MOI", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOJ.bin", "D.MOJ", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOK.bin", "D.MOK", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOL.bin", "D.MOL", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOM.bin", "D.MOM", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MON.bin", "D.MON", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOO.bin", "D.MOO", &005600, &005600
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.MOP.bin", "D.MOP", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOA.bin", "D.MOA", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOB.bin", "D.MOB", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOC.bin", "D.MOC", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOD.bin", "D.MOD", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOE.bin", "D.MOE", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOF.bin", "D.MOF", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOG.bin", "D.MOG", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOH.bin", "D.MOH", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOI.bin", "D.MOI", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOJ.bin", "D.MOJ", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOK.bin", "D.MOK", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOL.bin", "D.MOL", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOM.bin", "D.MOM", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MON.bin", "D.MON", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOO.bin", "D.MOO", &005600, &005600
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.MOP.bin", "D.MOP", &005600, &005600
 
 \ Disc Elite (Master, Compendium version) = *RUN ELITED, called from loader on disc 2
 
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE2.bin", "ELITED", &FF2F00, &FF2F23
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE3.bin", "ELITE3", &FF5700, &FF5700
- PUTFILE "disc-elite-beebasm/3-assembled-output/ELITE4.bin", "ELITE4", &FF1900, &FF197B
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/ELITE2.bin", "ELITED", &FF2F00, &FF2F23
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/ELITE3.bin", "ELITE3", &FF5700, &FF5700
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/ELITE4.bin", "ELITE4", &FF1900, &FF197B
 
- PUTFILE "disc-elite-beebasm/3-assembled-output/D.CODE.bin", "D.CODE", &0011E3, &0011E3
- PUTFILE "disc-elite-beebasm/3-assembled-output/T.CODE.bin", "T.CODE", &0011E3, &0011E3
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/D.CODE.bin", "D.CODE", &0011E3, &0011E3
+ PUTFILE "elite-source-code-bbc-micro-disc/3-assembled-output/T.CODE.bin", "T.CODE", &0011E3, &0011E3
 
 \ Teletext Elite = *RUN ELITET
 
