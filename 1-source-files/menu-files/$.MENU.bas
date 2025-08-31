@@ -144,7 +144,7 @@ IF O%=4 PROCsh(5,"Create your own 3D scenarios in Elite"):PROCsh(6,"and "+CHR$(3
 IF O%=4 PROCsh(9,"including the iconic screenshot from"):PROCsh(10,"the back of the Acornsoft box"):PROCsh(12,"See bbcelite.com/hacks for instructions")
 IF O%<>1 PROCsh(14,"For the BBC Master 128")
 IF O%=1 PROCsh(14,"For the BBC Master + 6502 co-processor")
-PROCsh(15,"See www.bbcelite.com for more details")
+PROCsh(15,"See bbcelite.com/hacks for details")
 REPEAT
 K%=GET
 UNTIL K%=136 OR K%=137 OR K%=13
@@ -162,7 +162,7 @@ PRINT"Compendium only works on the BBC"
 PRINT"Master."
 PRINT'"There are separate versions available"
 PRINT"for the BBC Micro and BBC Micro B+."
-PRINT'"See bbcelite.com/hacks for more details."
+PRINT'"See bbcelite.com/hacks for details."'
 END
 ENDPROC
 
