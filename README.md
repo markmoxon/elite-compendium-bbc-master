@@ -1,6 +1,6 @@
 # Elite Compendium for the BBC Master 128
 
-[BBC Micro cassette Elite](https://github.com/markmoxon/elite-source-code-bbc-micro-cassette) | [BBC Micro disc Elite](https://github.com/markmoxon/elite-source-code-bbc-micro-disc) | [Acorn Electron Elite](https://github.com/markmoxon/elite-source-code-acorn-electron) | [6502 Second Processor Elite](https://github.com/markmoxon/elite-source-code-6502-second-processor) | [Commodore 64 Elite](https://github.com/markmoxon/elite-source-code-commodore-64) | [Apple II Elite](https://github.com/markmoxon/elite-source-code-apple-ii) | [BBC Master Elite](https://github.com/markmoxon/elite-source-code-bbc-master) | [NES Elite](https://github.com/markmoxon/elite-source-code-nes) | [Elite-A](https://github.com/markmoxon/elite-a-source-code-bbc-micro) | [Teletext Elite](https://github.com/markmoxon/teletext-elite) | [Elite Universe Editor](https://github.com/markmoxon/elite-universe-editor) | **Elite Compendium (BBC Master)** | [Elite Compendium (BBC Micro)](https://github.com/markmoxon/elite-compendium-bbc-micro) | [Elite over Econet](https://github.com/markmoxon/elite-over-econet) | [!EliteNet](https://github.com/markmoxon/elite-over-econet-acorn-archimedes) | [Flicker-free Commodore 64 Elite](https://github.com/markmoxon/c64-elite-flicker-free) | [BBC Micro Aviator](https://github.com/markmoxon/aviator-source-code-bbc-micro) | [BBC Micro Revs](https://github.com/markmoxon/revs-source-code-bbc-micro) | [Archimedes Lander](https://github.com/markmoxon/lander-source-code-acorn-archimedes)
+[BBC Micro cassette Elite](https://github.com/markmoxon/elite-source-code-bbc-micro-cassette) | [BBC Micro disc Elite](https://github.com/markmoxon/elite-source-code-bbc-micro-disc) | [Acorn Electron Elite](https://github.com/markmoxon/elite-source-code-acorn-electron) | [6502 Second Processor Elite](https://github.com/markmoxon/elite-source-code-6502-second-processor) | [Commodore 64 Elite](https://github.com/markmoxon/elite-source-code-commodore-64) | [Apple II Elite](https://github.com/markmoxon/elite-source-code-apple-ii) | [BBC Master Elite](https://github.com/markmoxon/elite-source-code-bbc-master) | [NES Elite](https://github.com/markmoxon/elite-source-code-nes) | [Elite-A](https://github.com/markmoxon/elite-a-source-code-bbc-micro) | [Teletext Elite](https://github.com/markmoxon/teletext-elite) | [Elite Universe Editor](https://github.com/markmoxon/elite-universe-editor) | **Elite Compendium (BBC Master)** | [Elite Compendium (BBC Micro)](https://github.com/markmoxon/elite-compendium-bbc-micro) | [Elite Compendium (BBC Micro B+)](https://github.com/markmoxon/elite-compendium-bbc-micro-b-plus) | [Elite Compendium (Acorn Electron)](https://github.com/markmoxon/elite-compendium-acorn-electron) | [Elite over Econet](https://github.com/markmoxon/elite-over-econet) | [!EliteNet](https://github.com/markmoxon/elite-over-econet-acorn-archimedes) | [Flicker-free Commodore 64 Elite](https://github.com/markmoxon/c64-elite-flicker-free) | [BBC Micro Aviator](https://github.com/markmoxon/aviator-source-code-bbc-micro) | [BBC Micro Revs](https://github.com/markmoxon/revs-source-code-bbc-micro) | [Archimedes Lander](https://github.com/markmoxon/lander-source-code-acorn-archimedes)
 
 ![Screenshot of the Elite Compendium menu screen](https://elite.bbcelite.com/images/elite_compendium/menu.png)
 
@@ -8,16 +8,16 @@ This repository contains source code for the Elite Compendium for the BBC Master
 
 The Elite Compendium is a collection of the very best of Acornsoft Elite, updated with as many hacks and enhancements as I've been able to fit in. If you're looking to play 8-bit Elite, then this is a pretty good place to start. For more information, see the [bbcelite.com website](https://elite.bbcelite.com/hacks/elite_compendium.html).
 
-This repository contains submodules for each of the individual programs on the disc. Each submodule points to a branch called `elite-compendium` that contains the version of that program to be included in the Compendium disc.
+This repository contains submodules for each of the individual programs on the disc. Each submodule points to a branch that contains the version of that program to be included in the Compendium disc.
 
 The repository also contains the menu code and build process for producing the final DSD disc. It does this by producing two SSD images, one for each side, and then combining them into a DSD image (as BeebAsm can only create SSD images).
 
 See the individual subprojects for more information.
 
-* [BBC Micro disc Elite](https://github.com/markmoxon/elite-source-code-bbc-micro-disc)
-* [6502 Second Processor Elite](https://github.com/markmoxon/elite-source-code-6502-second-processor)
-* [BBC Master Elite](https://github.com/markmoxon/elite-source-code-bbc-master)
-* [Teletext Elite](https://github.com/markmoxon/teletext-elite)
+* [BBC Micro disc Elite, elite-compendium-bbc-master branch](https://github.com/markmoxon/elite-source-code-bbc-micro-disc/tree/elite-compendium-bbc-master)
+* [6502 Second Processor Elite, elite-compendium branch](https://github.com/markmoxon/elite-source-code-6502-second-processor/tree/elite-compendium)
+* [BBC Master Elite, elite-compendium branch](https://github.com/markmoxon/elite-source-code-bbc-master/tree/elite-compendium)
+* [Teletext Elite, elite-compendium-bbc-master branch](https://github.com/markmoxon/teletext-elite/tree/elite-compendium-bbc-master)
 * [Elite Universe Editor](https://github.com/markmoxon/elite-universe-editor)
 
 ## Acknowledgements
