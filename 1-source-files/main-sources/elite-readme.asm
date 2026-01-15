@@ -53,11 +53,6 @@
  EQUS "ported from the C64 by Negative Charge"
  EQUB 10, 13
  EQUB 10, 13
- EQUS "Sideways RAM detection and loading"
- EQUB 10, 13
- EQUS "routines by Tricky and J.G.Harston"
- EQUB 10, 13
- EQUB 10, 13
 
  EQUS "See www.bbcelite.com for details"
  EQUB 10, 13
