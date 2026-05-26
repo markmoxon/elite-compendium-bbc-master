@@ -1,9 +1,6 @@
 [submodule "teletext-elite"]
 	path = teletext-elite
 	url = https://github.com/markmoxon/teletext-elite.git
-[submodule "dfsimage"]
-	path = dfsimage
-	url = https://github.com/markmoxon/dfsimage.git
 [submodule "elite-source-code-bbc-micro-disc"]
 	path = elite-source-code-bbc-micro-disc
 	url = https://github.com/markmoxon/elite-source-code-bbc-micro-disc.git
