@@ -29,8 +29,8 @@
 
 \ Boot files
 
- PUTFILE "2-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
  PUTFILE "1-source-files/boot-files/$.!BOOT.bin", "!BOOT", &FFFFFF, &FFFFFF
+ PUTFILE "2-assembled-output/README.txt", "README", &FFFFFF, &FFFFFF
 
 \ Shared disc files
 
