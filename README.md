@@ -22,7 +22,7 @@ See [my profile](https://github.com/markmoxon) for more repositories to explore.
 
 This repository contains source code for the Elite Compendium for the BBC Master 128.
 
-The Elite Compendium is a collection of the very best of Acornsoft Elite, updated with as many hacks and enhancements as I've been able to fit in. If you're looking to play 8-bit Elite, then this is a pretty good place to start. For more information, see the [bbcelite.com website](https://elite.bbcelite.com/hacks/elite_compendium.html).
+The Elite Compendium is a collection of the very best of Acornsoft Elite, updated with as many hacks and enhancements as I've been able to fit in. If you're looking to play 8-bit Elite, then this is a pretty good place to start. For more information, see the [bbcelite.com website](https://elite.bbcelite.com/hacks/elite_compendium/).
 
 This repository contains submodules for each of the individual programs on the disc. Each submodule points to a branch that contains the version of that program to be included in the Compendium disc.
 
