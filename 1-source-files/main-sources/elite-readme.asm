@@ -62,5 +62,5 @@
  EQUS "---------------------------------------"
  EQUB 10, 13
 
- SAVE "2-assembled-output/README.txt", readme, P%
+ SAVE "3-assembled-output/README.txt", readme, P%
 
