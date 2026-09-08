@@ -45,7 +45,9 @@
 
 \ Elite Universe Editor (BBC Master version) = *DIR V : *RUN ELITEUE
 
- PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/M128Elt.bin", "V.ELITEUE", &FF0E00, &FF0E43
+ PUTBASIC "elite-universe-editor/1-source-files/other-files/$.ELITE-compendium.bas", "V.ELITEUE"
+ PUTFILE "elite-universe-editor/1-source-files/images/$.SCREEN.bin", "V.SCREEN", &FF7C00, &000000
+ PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/M128Elt.bin", "V.ELITE", &FF0E00, &FF0E43
  PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/BDATA.bin", "V.BDATA", &000000, &000000
  PUTFILE "elite-universe-editor-bbc-master/3-assembled-output/BCODE.bin", "V.BCODE", &000000, &000000
  PUTFILE "elite-universe-editor-library/universe-files/U.BOXART1.bin", "U.BOXART1", &000000, &000000

@@ -16,3 +16,6 @@
 [submodule "elite-universe-editor-bbc-master"]
 	path = elite-universe-editor-bbc-master
 	url = https://github.com/markmoxon/elite-universe-editor-bbc-master.git
+[submodule "elite-universe-editor"]
+	path = elite-universe-editor
+	url = https://github.com/markmoxon/elite-universe-editor.git
