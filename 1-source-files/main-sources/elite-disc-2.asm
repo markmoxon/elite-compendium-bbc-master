@@ -62,6 +62,7 @@
  PUTFILE "elite-source-code-6502-second-processor/3-assembled-output/ELITEa.bin", "I.ELITEa", &FF2000, &FF2000
  PUTFILE "elite-source-code-6502-second-processor/3-assembled-output/I.CODE.bin", "I.CODE", &FF2400, &FF2C89
  PUTFILE "elite-source-code-6502-second-processor/3-assembled-output/P.CODE.bin", "P.CODE", &000E3C, &0010D1
+ PUTFILE "elite-source-code-6502-second-processor/3-assembled-output/FIXSRAM.bin", "FIXSRAM", &FF3000, &FF3000
  PUTBASIC "elite-source-code-6502-second-processor/1-source-files/music/load-music.bas", "ELITE65"
 
 \ Disc Elite (Compendium version) = CHAIN "ELITED", which does *DRIVE 0 : *RUN ELITED
